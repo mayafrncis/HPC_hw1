@@ -7,4 +7,6 @@ int main()
     int **doubleptr = &ptr;
     printf("Value of var using ptr: %d\n", *ptr);
     printf("Value of var using doubleptr: %d\n", **doubleptr);
+
+    return 0;
 }
