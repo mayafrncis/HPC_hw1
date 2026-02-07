@@ -7,7 +7,8 @@ int main()
     for (int i = 0; i < 5; i++) {
         printf("Value of element: %d\n", *(ptr + i));
         *(ptr + i) *= 2;
-        printf("New value of element: %d\n", *(ptr + i));
+        printf("New value of element with pointer: %d\n", *(ptr + i));
+        printf("New value of element with array: %d\n", arr[i]);
         printf("-----------------------------\n");
     }
 
