@@ -20,4 +20,6 @@ int main()
     }
 
     printf("Length of string: %d\n", str_length(s));
+
+    return 0;
 }
