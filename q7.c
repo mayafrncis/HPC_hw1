@@ -46,4 +46,6 @@ int main()
 	}
 	free(strarr);
 	strarr = NULL;
+
+	return 0;
 }
